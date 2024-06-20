@@ -44,6 +44,6 @@ if st.button('Tentukan Tanaman yang Cocok'):
     elif (rekom == 'Rice'):
         rekom = 'Rice. Rekomendasi tanaman lain: Maize, Jute'
     else:
-        (rekom + 'We also recommend planting carbohydrate source plants such as Rice or Maize to support food security activities :)')
+        ('We also recommend planting carbohydrate source plants such as Rice or Maize to support food security activities :)')
 
     st.success(rekom)
